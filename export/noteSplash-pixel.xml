@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="noteSplash-pixel.png">
+    <!-- Made using Maru Aseprite JSON to XML converter -->
+    <SubTexture name="note splash purple 100000" x="0" y="0" width="80" height="80"/>
+    <SubTexture name="note splash purple 100001" x="80" y="0" width="80" height="80"/>
+    <SubTexture name="note splash purple 100002" x="160" y="0" width="80" height="80"/>
+    <SubTexture name="note splash purple 100003" x="240" y="0" width="80" height="80"/>
+    <SubTexture name="note splash purple 100004" x="320" y="0" width="80" height="80"/>
+    <SubTexture name="note splash blue 100000" x="400" y="0" width="80" height="80"/>
+    <SubTexture name="note splash blue 100001" x="480" y="0" width="80" height="80"/>
+    <SubTexture name="note splash blue 100002" x="560" y="0" width="80" height="80"/>
+    <SubTexture name="note splash blue 100003" x="640" y="0" width="80" height="80"/>
+    <SubTexture name="note splash blue 100004" x="720" y="0" width="80" height="80"/>
+    <SubTexture name="note splash blue 100005" x="800" y="0" width="80" height="80"/>
+    <SubTexture name="note splash green 100000" x="880" y="0" width="80" height="80"/>
+    <SubTexture name="note splash green 100001" x="960" y="0" width="80" height="80"/>
+    <SubTexture name="note splash green 100002" x="1040" y="0" width="80" height="80"/>
+    <SubTexture name="note splash green 100003" x="1120" y="0" width="80" height="80"/>
+    <SubTexture name="note splash green 100004" x="1200" y="0" width="80" height="80"/>
+    <SubTexture name="note splash green 100005" x="1280" y="0" width="80" height="80"/>
+    <SubTexture name="note splash red 100000" x="1360" y="0" width="80" height="80"/>
+    <SubTexture name="note splash red 100001" x="1440" y="0" width="80" height="80"/>
+    <SubTexture name="note splash red 100002" x="1520" y="0" width="80" height="80"/>
+    <SubTexture name="note splash red 100003" x="1600" y="0" width="80" height="80"/>
+    <SubTexture name="note splash red 100004" x="1680" y="0" width="80" height="80"/>
+    <SubTexture name="note splash red 100005" x="1760" y="0" width="80" height="80"/>
+    <SubTexture name="note splash red 100006" x="1840" y="0" width="80" height="80"/>
+</TextureAtlas>
