@@ -1,2 +1,2 @@
-# Aseprite-JSON-to-XML
-Made for Ache ;)
+# Aseprite JSON to XML
+REPOSITORY NOT DONE YET
