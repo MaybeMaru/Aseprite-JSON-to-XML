@@ -1,5 +1,4 @@
-- name: PyInstaller Windows
-  uses: JackMcKew/pyinstaller-action-windows@v0.1.2
+name: Package Application with Pyinstaller
 
 on:
   push:
@@ -14,6 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+
+    - name: PyInstaller Windows
+      uses: JackMcKew/pyinstaller-action-windows@v0.1.2
 
     - name: Package Application
       uses: JackMcKew/pyinstaller-action-windows@main
