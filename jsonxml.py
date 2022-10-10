@@ -26,7 +26,7 @@ def convert_json(dir):
     y = data['frames'][i]['frame']['y']
     w = data['frames'][i]['frame']['w']
     h = data['frames'][i]['frame']['h']
-    count = count + 1
+    
 
     for i in frameshit:
       if (count >= i[0]) and (count <= i[1]):
@@ -38,6 +38,7 @@ def convert_json(dir):
     xml_frame = '\n    <SubTexture name="'+str(frametag)+str("{:05d}".format(framecount))+'" x="'+str(x)+'" y="'+str(y)+'" width="'+str(w)+'" height="'+str(h)+'"/>'
     framecount = framecount + 1
     exportText=exportText+xml_frame
+    count = count + 1
 
   export_dir = 'export'
   if not os.path.exists(export_dir):
