@@ -51,7 +51,7 @@ def convert_JSON():
         makeConsoleText('ERROR EXPORTING XML')
 
 #Add Version Text
-version = 'v0.1'
+version = 'v0.1.1'
 canvas.create_text(30, 20, text=version, fill="white", font=('Arial 10'), anchor='w')
 canvas.pack(fill='both')
 
