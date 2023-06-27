@@ -14,6 +14,9 @@ Should look something like this:
 ![image](https://user-images.githubusercontent.com/97055307/194939673-4677f781-2d3e-4179-80a4-116585435526.png)
 
 
-## Converting the JSON
-Now that you have your JSON using the program will be really simple really.                                                 
-To convert the JSON all you gotta do is open it using the "Open Aseprite JSON" button and convert it pressing the "Export XML" button
+## Converting Animations
+Now that you have your JSON using the program will be really simple.
+1. Use the "Select JSON" button or write manually the directory of the JSON you want to convert.
+2. Click the "Convert XML" button. A preview of the convertex XML will appear.
+3. If it looks good click the "Save XML" button to save your xml anywhere you want.
+![image](https://github.com/MaybeMaru/Aseprite-JSON-to-XML/assets/97055307/656413b6-d439-4d7b-b265-369a9e2aca09)
