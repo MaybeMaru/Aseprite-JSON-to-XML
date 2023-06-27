@@ -18,7 +18,7 @@ jobs:
       - name: Build project
         run: |
           python -m pip install --upgrade pip
-          pip install pyinstaller
+          pip install pyinstaller==4.0
           pip3 install customtkinter
           pyinstaller main.py --onedir --noconsole --add-data "customtkinter;customtkinter"
       - name: Upload artifact
