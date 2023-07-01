@@ -21,10 +21,18 @@ def convert_json(dir):
 
   #Get frame data
   for frame in data['frames']:
-    x = frame['frame']['x']
-    y = frame['frame']['y']
-    w = frame['frame']['w']
-    h = frame['frame']['h']
+    x = y = w = h = 0
+    
+    if (type(frame) == str):
+      x = data['frames'][frame]['frame']['x']
+      y = data['frames'][frame]['frame']['y']
+      w = data['frames'][frame]['frame']['w']
+      h = data['frames'][frame]['frame']['h']
+    else:
+      x = frame['frame']['x']
+      y = frame['frame']['y']
+      w = frame['frame']['w']
+      h = frame['frame']['h']
     
     for tag in frame_tags:
       if (count >= tag[0]) and (count <= tag[1]):
