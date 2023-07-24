@@ -10,7 +10,10 @@ def convert_json(dir):
   frametag = ''
   framecount = 0
 
-  image_name = os.path.basename(data['meta']['image'])
+  if 'image' in data['meta'] and data['meta']['image'] is not None:
+    image_name = os.path.basename(data['meta']['image'])
+  else:
+    image_name = 'image_not_found'
 
   #Get frame tags data
   for frame in data['meta']['frameTags']:
